@@ -1,0 +1,138 @@
+
+*{
+    
+    padding: 0%;
+    margin: 0%;
+    }
+    
+    
+    body{
+        background-color: #1a1a1a;
+    }
+    
+    .banner{
+    height: 450px;
+    width: 850px;
+    background-image: url("./assets/banner.png"); /*ele adiciona uma imagem como fundo*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+    
+    }
+    
+    li a{
+    
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 25px;
+     }
+    
+    ul{
+        display: flex; /*ativa a propriedade de alinhamento*/
+        flex-direction: row; /*coloca os elementos na horizontal*/
+    }
+    
+    li{
+    list-style: none; /*remove os pontos das lista*/
+    }
+    
+    nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+     #logo{
+    height: 120px;
+    width: 120px;
+     }
+    
+     .bi{
+    font-size: 40px;
+    color: #4c544c;
+    
+     }
+    
+     .texto-banner{
+        color: #ffffff;
+       font-size: 25px;
+       
+     }
+    
+     .btn{
+        height: 45px;
+        width: 115px;
+        border-radius: 55px;/*Deixa a  borda redonda*/
+        border: none; /*Serve para remover a borda*/
+        color: #ffffff;
+        font-size: 19px;
+        background-color: #333333;
+        margin: 30px;
+     }
+     
+     .banner-estrutura{
+        width: 220px;
+     }
+     
+     .section-banner {
+        display: flex;
+        justify-content: center;  /* Centraliza horizontalmente */
+        align-items: center;/* (Opcional) centraliza verticalmente */
+        padding: 40px 0;   /* Mantém espaço ao redor */
+        }
+
+        .titulo{
+         color: #ffffff;
+         font-weight:bold ;
+         font-size: 35px;
+        }
+        .estrutura-titulo{
+           justify-content: center;
+            display: flex;
+        }
+
+         .produtos{
+            height: 380px;
+            width: 190px;
+         }
+
+            .valor{
+             color: #ffffff;
+             font-size: bold;
+             font-size: 30px;   
+            }
+            .card-texto{
+             display: flex;
+             justify-content: center;
+            }
+            .card{
+                width: 250px;
+                height: 430px;
+
+            }
+
+            .valor{
+                height: 15px;
+                width: 15px;
+            }
+            .vernelho{
+                background-color: red;
+             }
+
+            .azul{
+            background-color: blue;
+            }
+             .amarelo{
+                background-color: yellow;
+             }
+            .verde{
+                background-color: green;
+            }
+            
+            .laranja{
+            background-color: orange;
+            }
